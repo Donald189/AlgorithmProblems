@@ -20,15 +20,15 @@ namespace AlgorithamPrograms
                 int option = Convert.ToInt32(Console.ReadLine());       // converting string value to int
                 switch (option)
                 {
-                    case 1:
-                        BinarySearch binary = new BinarySearch();
-                        binary.Search();
-                        break;
+                    //case 1:
+                    //    BinarySearch binary = new BinarySearch();
+                    //    binary.Search();
+                    //    break;
 
-                    //            case 2:
-                    //                InsertionSort insertion = new InsertionSort();
-                    //                insertion.Insertion_Sort();
-                    //                break;
+                    case 2:
+                        InsertionSort insertion = new InsertionSort();
+                        insertion.Insertion_Sort();
+                        break;
 
                     //            case 3:
                     //                Anagram anagram = new Anagram();
